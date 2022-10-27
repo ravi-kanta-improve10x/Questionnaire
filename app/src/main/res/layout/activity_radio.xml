@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RadioActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Please select the correct answer"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="How many planets are there in solarsystem"
+        android:textColor="#101010"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textColor="#101010" />
+
+        <RadioButton
+            android:id="@+id/radio_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textColor="#0E0E0E" />
+
+        <RadioButton
+            android:id="@+id/radio_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textColor="#070707" />
+
+        <RadioButton
+            android:id="@+id/radio_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textColor="#0E0E0E" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Verify"
+        android:textAllCaps="false" />
+</LinearLayout>

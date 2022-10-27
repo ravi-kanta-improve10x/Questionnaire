@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Question1Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center|left"
+        android:text="please select all the correct answers"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center|left"
+        android:text="Witch of the following are planents"
+        android:textColor="#090909"
+        android:textColorHint="#101010"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/mercury_cbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercury"
+        android:textColor="#0B0B0B" />
+
+    <CheckBox
+        android:id="@+id/sun_cbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Sun"
+        android:textColor="#0C0C0C" />
+
+    <CheckBox
+        android:id="@+id/moon_cbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moon"
+        android:textColor="#0C0C0C" />
+
+    <CheckBox
+        android:id="@+id/jupiter_cbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jupiter"
+        android:textColor="#0B0A0A" />
+
+    <CheckBox
+        android:id="@+id/saturn_cbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturn"
+        android:textColor="#0B0A0A" />
+
+    <CheckBox
+        android:id="@+id/pluto_cbx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pluto"
+        android:textColor="#0E0E0E" />
+
+    <Button
+        android:id="@+id/verify_ans_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Verify"
+        android:textAllCaps="false" />
+</LinearLayout>
